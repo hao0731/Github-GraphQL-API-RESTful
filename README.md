@@ -4,10 +4,10 @@
 1.  可以取得某個organization的repositories
 2.  可以更改repository的名稱
 
-##Tools
+## Tools
 使用Node.js作為後端工具，使用request套件來完成呼叫API的動作
 
-##Start
+## Start
 可以透過`curl`或`Postman`來測試
 並在header的部分添加`Authorization: bearer <TOKEN>`
 1.  `GET  http://localhost:3000/api/orgs/:org/repos`可以取得該organization的repositories
